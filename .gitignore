@@ -1,0 +1,7 @@
+build/
+Debug/
+Release/
+Generated_Source/
+codegentemp/
+*.hex
+*.elf
