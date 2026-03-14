@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CyXmlSerializer>
+<!--This file is machine generated and read. It is not intended to be edited by hand.-->
+<!--Due to this, there is no schema for this file.-->
+<CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21 type_name="CyDesigner.Common.ProjMgmt.Model.CyPrjMgmtWrkspcCustomData" version="4">
+<CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997 type_name="CyDesigner.Common.Base.CyCustomData" version="2">
+<userData>
+<dataGuid v="5f2be1a5-0687-4501-bb8c-cf21cb8211bf">
+<CyGuid_5f2be1a5-0687-4501-bb8c-cf21cb8211bf type_name="CyDesigner.Common.ProjMgmt.GUI.CyBookmarkData" version="1">
+<indicators />
+</CyGuid_5f2be1a5-0687-4501-bb8c-cf21cb8211bf>
+</dataGuid>
+<dataGuid v="1b906a0f-a7b6-4e4d-a428-82f98b53cb35">
+<CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35 type_name="CyDesigner.Common.ProjMgmt.GUI.CyExplorerWindow+CyExplorerWindowState" version="3" SelectedTab="Source">
+<TreeKeys>
+<v>Source</v>
+<v>Components</v>
+<v>Output</v>
+</TreeKeys>
+<TreeStates>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="LW01-000\LW01\Source Files\main.c">
+<ExpandedNodeIds>
+<v>LW01-000</v>
+<v>LW01-000\LW01</v>
+<v>LW01-000\LW01\TopDesign</v>
+<v>LW01-000\LW01\LW01.cydwr</v>
+<v>LW01-000\LW01\LW01.cydwr\Pins</v>
+<v>LW01-000\LW01\LW01.cydwr\Analog</v>
+<v>LW01-000\LW01\LW01.cydwr\Clocks</v>
+<v>LW01-000\LW01\LW01.cydwr\Interrupts</v>
+<v>LW01-000\LW01\LW01.cydwr\System</v>
+<v>LW01-000\LW01\LW01.cydwr\Directives</v>
+<v>LW01-000\LW01\LW01.cydwr\Flash Security</v>
+<v>LW01-000\LW01\Header Files</v>
+<v>LW01-000\LW01\Header Files\cyapicallbacks.h</v>
+<v>LW01-000\LW01\Source Files</v>
+<v>LW01-000\LW01\Source Files\main.c</v>
+<v>LW01-000\LW01\Generated_Source</v>
+<v>LW01-000\LW01\Generated_Source\PSoC4</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>LW01-000</v>
+<v>LW01-000\LW01</v>
+<v>LW01-000\LW01\TopDesign</v>
+<v>LW01-000\LW01\LW01.cydwr</v>
+<v>LW01-000\LW01\LW01.cydwr\Pins</v>
+<v>LW01-000\LW01\LW01.cydwr\Analog</v>
+<v>LW01-000\LW01\LW01.cydwr\Clocks</v>
+<v>LW01-000\LW01\LW01.cydwr\Interrupts</v>
+<v>LW01-000\LW01\LW01.cydwr\System</v>
+<v>LW01-000\LW01\LW01.cydwr\Directives</v>
+<v>LW01-000\LW01\LW01.cydwr\Flash Security</v>
+<v>LW01-000\LW01\Header Files</v>
+<v>LW01-000\LW01\Header Files\cyapicallbacks.h</v>
+<v>LW01-000\LW01\Source Files</v>
+<v>LW01-000\LW01\Source Files\main.c</v>
+<v>LW01-000\LW01\Generated_Source</v>
+<v>LW01-000\LW01\Generated_Source\PSoC4</v>
+<v>LW01-000\LW01\Generated_Source\PSoC4\Button</v>
+<v>LW01-000\LW01\Generated_Source\PSoC4\cy_boot</v>
+<v>LW01-000\LW01\Generated_Source\PSoC4\cy_lfclk</v>
+<v>LW01-000\LW01\Generated_Source\PSoC4\Em_EEPROM_Dynamic</v>
+<v>LW01-000\LW01\Generated_Source\PSoC4\LED_B</v>
+<v>LW01-000\LW01\Generated_Source\PSoC4\LED_G</v>
+<v>LW01-000\LW01\Generated_Source\PSoC4\LED_R</v>
+<v>LW01-000\LW01\Generated_Source\PSoC4\cycodeshareexport.ld</v>
+<v>LW01-000\LW01\Generated_Source\PSoC4\cycodeshareimport.ld</v>
+<v>LW01-000\LW01\Generated_Source\PSoC4\cycodeshareimport.scat</v>
+<v>LW01-000\LW01\Generated_Source\PSoC4\cydevice_trm.h</v>
+<v>LW01-000\LW01\Generated_Source\PSoC4\cydevicegnu_trm.inc</v>
+<v>LW01-000\LW01\Generated_Source\PSoC4\cydeviceiar_trm.inc</v>
+<v>LW01-000\LW01\Generated_Source\PSoC4\cydevicerv_trm.inc</v>
+<v>LW01-000\LW01\Generated_Source\PSoC4\cydisabledsheets.h</v>
+<v>LW01-000\LW01\Generated_Source\PSoC4\cyfitter.h</v>
+<v>LW01-000\LW01\Generated_Source\PSoC4\cyfitter_cfg.c</v>
+<v>LW01-000\LW01\Generated_Source\PSoC4\cyfitter_cfg.h</v>
+<v>LW01-000\LW01\Generated_Source\PSoC4\cyfittergnu.inc</v>
+<v>LW01-000\LW01\Generated_Source\PSoC4\cyfitteriar.inc</v>
+<v>LW01-000\LW01\Generated_Source\PSoC4\cyfitterrv.inc</v>
+<v>LW01-000\LW01\Generated_Source\PSoC4\cymetadata.c</v>
+<v>LW01-000\LW01\Generated_Source\PSoC4\project.h</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>LW01-000</v>
+<v>LW01-000\LW01</v>
+<v>LW01-000\LW01\TopDesign</v>
+<v>LW01-000\LW01\TopDesign\TopDesign.cysch</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>LW01-000</v>
+<v>LW01-000\LW01</v>
+<v>LW01-000\LW01\TopDesign</v>
+<v>LW01-000\LW01\TopDesign\TopDesign.cysch</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>LW01-000</v>
+<v>LW01-000\LW01</v>
+<v>LW01-000\LW01\CortexM0</v>
+<v>LW01-000\LW01\CortexM0\ARM_GCC_541</v>
+<v>LW01-000\LW01\CortexM0\ARM_GCC_541\Debug</v>
+<v>LW01-000\LW01\CortexM0\ARM_GCC_541\Debug\Listing Files</v>
+<v>LW01-000\LW01\CortexM0\ARM_GCC_541\Debug\Listing Files\Button.lst</v>
+<v>LW01-000\LW01\CortexM0\ARM_GCC_541\Debug\Listing Files\Button_PM.lst</v>
+<v>LW01-000\LW01\CortexM0\ARM_GCC_541\Debug\Listing Files\Cm0Start.lst</v>
+<v>LW01-000\LW01\CortexM0\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
+<v>LW01-000\LW01\CortexM0\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>LW01-000\LW01\CortexM0\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>LW01-000\LW01\CortexM0\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
+<v>LW01-000\LW01\CortexM0\ARM_GCC_541\Debug\Listing Files\CyLFClk.lst</v>
+<v>LW01-000\LW01\CortexM0\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
+<v>LW01-000\LW01\CortexM0\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
+<v>LW01-000\LW01\CortexM0\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
+<v>LW01-000\LW01\CortexM0\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
+<v>LW01-000\LW01\CortexM0\ARM_GCC_541\Debug\Listing Files\LED_B.lst</v>
+<v>LW01-000\LW01\CortexM0\ARM_GCC_541\Debug\Listing Files\LED_B_PM.lst</v>
+<v>LW01-000\LW01\CortexM0\ARM_GCC_541\Debug\Listing Files\LED_G.lst</v>
+<v>LW01-000\LW01\CortexM0\ARM_GCC_541\Debug\Listing Files\LED_G_PM.lst</v>
+<v>LW01-000\LW01\CortexM0\ARM_GCC_541\Debug\Listing Files\LED_R.lst</v>
+<v>LW01-000\LW01\CortexM0\ARM_GCC_541\Debug\Listing Files\LED_R_PM.lst</v>
+<v>LW01-000\LW01\CortexM0\ARM_GCC_541\Debug\Listing Files\main.lst</v>
+<v>LW01-000\LW01\CortexM0\ARM_GCC_541\Debug\LW01.elf</v>
+<v>LW01-000\LW01\CortexM0\ARM_GCC_541\Debug\LW01.hex</v>
+<v>LW01-000\LW01\CortexM0\ARM_GCC_541\Debug\LW01.map</v>
+<v>LW01-000\LW01\LW01.gpdsc</v>
+<v>LW01-000\LW01\LW01.rpt</v>
+<v>LW01-000\LW01\LW01_timing.html</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>LW01-000</v>
+<v>LW01-000\LW01</v>
+<v>LW01-000\LW01\CortexM0</v>
+<v>LW01-000\LW01\CortexM0\ARM_GCC_541</v>
+<v>LW01-000\LW01\CortexM0\ARM_GCC_541\Debug</v>
+<v>LW01-000\LW01\CortexM0\ARM_GCC_541\Debug\Listing Files</v>
+<v>LW01-000\LW01\CortexM0\ARM_GCC_541\Debug\Listing Files\Button.lst</v>
+<v>LW01-000\LW01\CortexM0\ARM_GCC_541\Debug\Listing Files\Button_PM.lst</v>
+<v>LW01-000\LW01\CortexM0\ARM_GCC_541\Debug\Listing Files\Cm0Start.lst</v>
+<v>LW01-000\LW01\CortexM0\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
+<v>LW01-000\LW01\CortexM0\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>LW01-000\LW01\CortexM0\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>LW01-000\LW01\CortexM0\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
+<v>LW01-000\LW01\CortexM0\ARM_GCC_541\Debug\Listing Files\CyLFClk.lst</v>
+<v>LW01-000\LW01\CortexM0\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
+<v>LW01-000\LW01\CortexM0\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
+<v>LW01-000\LW01\CortexM0\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
+<v>LW01-000\LW01\CortexM0\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
+<v>LW01-000\LW01\CortexM0\ARM_GCC_541\Debug\Listing Files\LED_B.lst</v>
+<v>LW01-000\LW01\CortexM0\ARM_GCC_541\Debug\Listing Files\LED_B_PM.lst</v>
+<v>LW01-000\LW01\CortexM0\ARM_GCC_541\Debug\Listing Files\LED_G.lst</v>
+<v>LW01-000\LW01\CortexM0\ARM_GCC_541\Debug\Listing Files\LED_G_PM.lst</v>
+<v>LW01-000\LW01\CortexM0\ARM_GCC_541\Debug\Listing Files\LED_R.lst</v>
+<v>LW01-000\LW01\CortexM0\ARM_GCC_541\Debug\Listing Files\LED_R_PM.lst</v>
+<v>LW01-000\LW01\CortexM0\ARM_GCC_541\Debug\Listing Files\main.lst</v>
+<v>LW01-000\LW01\CortexM0\ARM_GCC_541\Debug\LW01.elf</v>
+<v>LW01-000\LW01\CortexM0\ARM_GCC_541\Debug\LW01.hex</v>
+<v>LW01-000\LW01\CortexM0\ARM_GCC_541\Debug\LW01.map</v>
+<v>LW01-000\LW01\LW01.gpdsc</v>
+<v>LW01-000\LW01\LW01.rpt</v>
+<v>LW01-000\LW01\LW01_timing.html</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStates>
+<TreeKeysV2>
+<v>Datasheet</v>
+</TreeKeysV2>
+<TreeStatesV2>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>LW01-000</v>
+<v>LW01-000\LW01</v>
+<v>LW01-000\LW01\PSoC 4 Architecture TRM</v>
+<v>LW01-000\LW01\PSoC 4200 Family Datasheet</v>
+<v>LW01-000\LW01\System Reference Guides</v>
+<v>LW01-000\LW01\System Reference Guides\cy_boot_v6_0</v>
+<v>LW01-000\LW01\System Reference Guides\cy_lfclk_v1_20</v>
+<v>LW01-000\LW01\cy_pins_v2_20</v>
+<v>LW01-000\LW01\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>LW01-000</v>
+<v>LW01-000\LW01</v>
+<v>LW01-000\LW01\PSoC 4 Architecture TRM</v>
+<v>LW01-000\LW01\PSoC 4200 Family Datasheet</v>
+<v>LW01-000\LW01\System Reference Guides</v>
+<v>LW01-000\LW01\System Reference Guides\cy_boot_v6_0</v>
+<v>LW01-000\LW01\System Reference Guides\cy_lfclk_v1_20</v>
+<v>LW01-000\LW01\cy_pins_v2_20</v>
+<v>LW01-000\LW01\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStatesV2>
+</CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35>
+</dataGuid>
+</userData>
+</CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
+<Unloaded />
+<OpenDocs>
+<name v=".\TopDesign\TopDesign.cysch" />
+<name v=".\LW01.cydwr" />
+<name v=".\main.c" />
+</OpenDocs>
+<OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
+
+  Actipro Docking/MDI for WinForms
+  Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
+  http://www.actiprosoftware.com
+
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1163, 583" SelectedTabbedMdiWindow="bfdb759a-cffc-4eae-b7ac-35f5aff4d788"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="0a1df578-ab2d-47ff-80a5-99668cc48055" /><DocumentWindow Key="C:\Users\Laptop\Desktop\psoc-lab-1\Project_Button_LED\LW01.cydsn\TopDesign\TopDesign.cysch" Guid="bfdb759a-cffc-4eae-b7ac-35f5aff4d788" /><DocumentWindow Key="C:\Users\Laptop\Desktop\psoc-lab-1\Project_Button_LED\LW01.cydsn\LW01.cydwr" Guid="4f5f0f75-020b-4035-8b4d-fa8ec779c1e2" /><DocumentWindow Key="C:\Users\Laptop\Desktop\psoc-lab-1\Project_Button_LED\LW01.cydsn\main.c" Guid="76fc4c0f-5ce3-49f1-8ca0-a5b00695b2ef" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+<config v="" />
+<AutoUpdate v="true" />
+</CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
+</CyXmlSerializer>
