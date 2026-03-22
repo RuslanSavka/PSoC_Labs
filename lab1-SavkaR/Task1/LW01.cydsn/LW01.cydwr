@@ -11,8 +11,10 @@
   <Data key="DataVersionKey" value="2" />
   <Group key="DWRInstGuidMapping">
     <Group key="Pin">
+      <Data key="0de155c0-dc38-4f43-8a99-64f804d9d5d8" value="LED_B" />
       <Data key="8d318d8b-cf7b-4b6b-b02c-ab1c5c49d0ba" value="Button" />
       <Data key="2965b3fd-c2a3-453e-ae84-79337571e19c" value="LED_B" />
+      <Data key="b4c362ef-f2a9-4931-998f-72150a38bc35" value="LED_G" />
       <Data key="e41dad8c-38cc-4531-baed-6d810b673e16" value="LED_G" />
       <Data key="e851a3b9-efb8-48be-bbb8-b303b216c393" value="LED_R" />
     </Group>
@@ -1224,6 +1226,11 @@
     </Group>
   </Group>
   <Group key="Pin2">
+    <Group key="0de155c0-dc38-4f43-8a99-64f804d9d5d8">
+      <Group key="0">
+        <Data key="Port Format" value="0,3" />
+      </Group>
+    </Group>
     <Group key="8d318d8b-cf7b-4b6b-b02c-ab1c5c49d0ba">
       <Group key="0">
         <Data key="Port Format" value="0,7" />
@@ -1232,6 +1239,11 @@
     <Group key="2965b3fd-c2a3-453e-ae84-79337571e19c">
       <Group key="0">
         <Data key="Port Format" value="0,3" />
+      </Group>
+    </Group>
+    <Group key="b4c362ef-f2a9-4931-998f-72150a38bc35">
+      <Group key="0">
+        <Data key="Port Format" value="0,2" />
       </Group>
     </Group>
     <Group key="e41dad8c-38cc-4531-baed-6d810b673e16">

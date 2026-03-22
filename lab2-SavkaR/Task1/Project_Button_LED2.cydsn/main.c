@@ -16,6 +16,10 @@ int main(void)
     /* Place your initialization/startup code here (e.g. MyInst_Start()) */
     SW_Tx_UART_Start();
     SW_Tx_UART_PutCRLF();
+    
+    SW_Tx_UART_PutString("Savka Ruslan");
+    SW_Tx_UART_PutCRLF();
+    
     SW_Tx_UART_PutString("Software Transmit UART");
     SW_Tx_UART_PutCRLF();
     uint8_t last_state = 0;

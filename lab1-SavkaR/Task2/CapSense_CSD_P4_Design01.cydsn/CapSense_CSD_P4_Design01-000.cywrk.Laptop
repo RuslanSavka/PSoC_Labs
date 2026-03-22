@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CyXmlSerializer>
+<!--This file is machine generated and read. It is not intended to be edited by hand.-->
+<!--Due to this, there is no schema for this file.-->
+<CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21 type_name="CyDesigner.Common.ProjMgmt.Model.CyPrjMgmtWrkspcCustomData" version="4">
+<CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997 type_name="CyDesigner.Common.Base.CyCustomData" version="2">
+<userData>
+<dataGuid v="5f2be1a5-0687-4501-bb8c-cf21cb8211bf">
+<CyGuid_5f2be1a5-0687-4501-bb8c-cf21cb8211bf type_name="CyDesigner.Common.ProjMgmt.GUI.CyBookmarkData" version="1">
+<indicators />
+</CyGuid_5f2be1a5-0687-4501-bb8c-cf21cb8211bf>
+</dataGuid>
+<dataGuid v="1b906a0f-a7b6-4e4d-a428-82f98b53cb35">
+<CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35 type_name="CyDesigner.Common.ProjMgmt.GUI.CyExplorerWindow+CyExplorerWindowState" version="3" SelectedTab="Source">
+<TreeKeys>
+<v>Source</v>
+<v>Components</v>
+<v>Output</v>
+</TreeKeys>
+<TreeStates>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\Source Files\main.c">
+<ExpandedNodeIds>
+<v>CapSense_CSD_P4_Design01-000</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\TopDesign</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\CapSense_CSD_P4_Design01.cydwr</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\CapSense_CSD_P4_Design01.cydwr\Pins</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\CapSense_CSD_P4_Design01.cydwr\Analog</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\CapSense_CSD_P4_Design01.cydwr\Clocks</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\CapSense_CSD_P4_Design01.cydwr\Interrupts</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\CapSense_CSD_P4_Design01.cydwr\System</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\CapSense_CSD_P4_Design01.cydwr\Directives</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\CapSense_CSD_P4_Design01.cydwr\Flash Security</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\Header Files</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\Header Files\cyapicallbacks.h</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\Source Files</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\Source Files\main.c</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\CapSense_CSD_P4_Design.pdf</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\Generated_Source</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\Generated_Source\PSoC4</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>CapSense_CSD_P4_Design01-000</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\TopDesign</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\CapSense_CSD_P4_Design01.cydwr</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\CapSense_CSD_P4_Design01.cydwr\Pins</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\CapSense_CSD_P4_Design01.cydwr\Analog</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\CapSense_CSD_P4_Design01.cydwr\Clocks</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\CapSense_CSD_P4_Design01.cydwr\Interrupts</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\CapSense_CSD_P4_Design01.cydwr\System</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\CapSense_CSD_P4_Design01.cydwr\Directives</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\CapSense_CSD_P4_Design01.cydwr\Flash Security</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\Header Files</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\Header Files\cyapicallbacks.h</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\Source Files</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\Source Files\main.c</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\CapSense_CSD_P4_Design.pdf</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\Generated_Source</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\Generated_Source\PSoC4</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\Generated_Source\PSoC4\CapSense_CSD</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\Generated_Source\PSoC4\CapSense_CSD_SampleClk</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\Generated_Source\PSoC4\CapSense_CSD_SenseClk</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\Generated_Source\PSoC4\CapSense_CSD_Sns</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\Generated_Source\PSoC4\Clock_PWM</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\Generated_Source\PSoC4\cy_boot</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\Generated_Source\PSoC4\cy_lfclk</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\Generated_Source\PSoC4\Em_EEPROM_Dynamic</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\Generated_Source\PSoC4\LED_1</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\Generated_Source\PSoC4\LED_2</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\Generated_Source\PSoC4\LED_CONTROL</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\Generated_Source\PSoC4\cycodeshareexport.ld</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\Generated_Source\PSoC4\cycodeshareimport.ld</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\Generated_Source\PSoC4\cycodeshareimport.scat</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\Generated_Source\PSoC4\cydevice_trm.h</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\Generated_Source\PSoC4\cydevicegnu_trm.inc</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\Generated_Source\PSoC4\cydeviceiar_trm.inc</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\Generated_Source\PSoC4\cydevicerv_trm.inc</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\Generated_Source\PSoC4\cydisabledsheets.h</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\Generated_Source\PSoC4\cyfitter.h</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\Generated_Source\PSoC4\cyfitter_cfg.c</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\Generated_Source\PSoC4\cyfitter_cfg.h</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\Generated_Source\PSoC4\cyfittergnu.inc</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>CapSense_CSD_P4_Design01-000</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\TopDesign</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\TopDesign\PSoC4</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\TopDesign\PSoC4\PSoC 4000</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\TopDesign\PSoC4\PSoC 4000\TopDesign.ctl</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\TopDesign\PSoC4\PSoC 4200</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\TopDesign\PSoC4\PSoC 4200\TopDesign.ctl</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\TopDesign\PSoC4\PSoC 4200 BLE</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\TopDesign\PSoC4\PSoC 4200 BLE\TopDesign.ctl</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\TopDesign\TopDesign.cysch</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>CapSense_CSD_P4_Design01-000</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\TopDesign</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\TopDesign\PSoC4</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\TopDesign\PSoC4\PSoC 4000</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\TopDesign\PSoC4\PSoC 4000\TopDesign.ctl</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\TopDesign\PSoC4\PSoC 4200</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\TopDesign\PSoC4\PSoC 4200\TopDesign.ctl</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\TopDesign\PSoC4\PSoC 4200 BLE</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\TopDesign\PSoC4\PSoC 4200 BLE\TopDesign.ctl</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\TopDesign\TopDesign.cysch</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>CapSense_CSD_P4_Design01-000</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\CortexM0</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\CortexM0\ARM_GCC_541</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\CortexM0\ARM_GCC_541\Debug</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\CortexM0\ARM_GCC_541\Debug\Listing Files</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\CapSense_CSD.lst</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\CapSense_CSD_CSHL.lst</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\CapSense_CSD_INT.lst</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\CapSense_CSD_PM.lst</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\CapSense_CSD_SampleClk.lst</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\CapSense_CSD_SenseClk.lst</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\CapSense_CSD_SMS.lst</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\CapSense_CSD_TunerHelper.lst</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\Clock_PWM.lst</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\Cm0Start.lst</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\CyLFClk.lst</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\LED_1.lst</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\LED_1_PM.lst</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\LED_2.lst</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\LED_2_PM.lst</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\LED_CONTROL.lst</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\LED_CONTROL_PM.lst</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\main.lst</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\CortexM0\ARM_GCC_541\Debug\CapSense_CSD_P4_Design01.elf</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\CortexM0\ARM_GCC_541\Debug\CapSense_CSD_P4_Design01.hex</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\CortexM0\ARM_GCC_541\Debug\CapSense_CSD_P4_Design01.map</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\CapSense_CSD_P4_Design01.gpdsc</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\CapSense_CSD_P4_Design01.rpt</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\CapSense_CSD_P4_Design01_timing.html</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>CapSense_CSD_P4_Design01-000</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\CortexM0</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\CortexM0\ARM_GCC_541</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\CortexM0\ARM_GCC_541\Debug</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\CortexM0\ARM_GCC_541\Debug\Listing Files</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\CapSense_CSD.lst</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\CapSense_CSD_CSHL.lst</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\CapSense_CSD_INT.lst</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\CapSense_CSD_PM.lst</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\CapSense_CSD_SampleClk.lst</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\CapSense_CSD_SenseClk.lst</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\CapSense_CSD_SMS.lst</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\CapSense_CSD_TunerHelper.lst</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\Clock_PWM.lst</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\Cm0Start.lst</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\CyLFClk.lst</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\LED_1.lst</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\LED_1_PM.lst</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\LED_2.lst</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\LED_2_PM.lst</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\LED_CONTROL.lst</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\LED_CONTROL_PM.lst</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\main.lst</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\CortexM0\ARM_GCC_541\Debug\CapSense_CSD_P4_Design01.elf</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\CortexM0\ARM_GCC_541\Debug\CapSense_CSD_P4_Design01.hex</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\CortexM0\ARM_GCC_541\Debug\CapSense_CSD_P4_Design01.map</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\CapSense_CSD_P4_Design01.gpdsc</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\CapSense_CSD_P4_Design01.rpt</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\CapSense_CSD_P4_Design01_timing.html</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStates>
+<TreeKeysV2>
+<v>Datasheet</v>
+</TreeKeysV2>
+<TreeStatesV2>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>CapSense_CSD_P4_Design01-000</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\PSoC 4 Architecture TRM</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\PSoC 4200 Family Datasheet</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\System Reference Guides</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\System Reference Guides\cy_boot_v5_60</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\System Reference Guides\cy_lfclk_v1_20</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\CapSense_CSD_P4_v2_60.pdf</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\cy_clock_v2_20.pdf</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\cy_pins_v2_20</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\LED_v1_0</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\LED_v1_0\LED_v1_0.pdf</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\Power_v1_0</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\Power_v1_0\Power_v1_0.pdf</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\Resistor_v1_0</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\Resistor_v1_0\Resistor_v1_0.pdf</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\TCPWM_P4_v2_10.pdf</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>CapSense_CSD_P4_Design01-000</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\PSoC 4 Architecture TRM</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\PSoC 4200 Family Datasheet</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\System Reference Guides</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\System Reference Guides\cy_boot_v5_60</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\System Reference Guides\cy_lfclk_v1_20</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\CapSense_CSD_P4_v2_60.pdf</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\cy_clock_v2_20.pdf</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\cy_pins_v2_20</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\LED_v1_0</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\LED_v1_0\LED_v1_0.pdf</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\Power_v1_0</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\Power_v1_0\Power_v1_0.pdf</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\Resistor_v1_0</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\Resistor_v1_0\Resistor_v1_0.pdf</v>
+<v>CapSense_CSD_P4_Design01-000\CapSense_CSD_P4_Design01\TCPWM_P4_v2_10.pdf</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStatesV2>
+</CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35>
+</dataGuid>
+</userData>
+</CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
+<Unloaded />
+<OpenDocs>
+<name v=".\CapSense_CSD_P4_Design01.cydwr" />
+<name v=".\main.c" />
+</OpenDocs>
+<OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
+
+  Actipro Docking/MDI for WinForms
+  Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
+  http://www.actiprosoftware.com
+
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1163, 583" SelectedTabbedMdiWindow="2f8a1051-380e-44e8-8c0c-b916adf9942c"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="0a1df578-ab2d-47ff-80a5-99668cc48055" /><DocumentWindow Key="C:\Users\Laptop\PSoC_Labs\lab1-SavkaR\Task2\CapSense_CSD_P4_Design01.cydsn\CapSense_CSD_P4_Design01.cydwr" Guid="60e6b708-6390-47c8-b245-ac92141ed025" /><DocumentWindow Key="C:\Users\Laptop\PSoC_Labs\lab1-SavkaR\Task2\CapSense_CSD_P4_Design01.cydsn\main.c" Guid="2f8a1051-380e-44e8-8c0c-b916adf9942c" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+<config v="" />
+<AutoUpdate v="true" />
+</CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
+</CyXmlSerializer>
