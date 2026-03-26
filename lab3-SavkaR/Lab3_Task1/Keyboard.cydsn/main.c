@@ -177,7 +177,7 @@ int main(void)
             if(last_key != 255)
             {
                 last_key = 255;
-                LED_Off(); // відпустив - вимкнути
+                LED_Off(); // відпустив → вимкнути
             }
         }
     }
