@@ -231,7 +231,7 @@
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1163, 583" SelectedTabbedMdiWindow="8fcc6867-d148-422b-bbbd-913ad67ce86f"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="0a1df578-ab2d-47ff-80a5-99668cc48055" /><DocumentWindow Key="C:\Users\Laptop\Desktop\psoc-labs-SR\lab3-SavkaR\Lab3_Task2\Keyboard.cydsn\main.c" Guid="8fcc6867-d148-422b-bbbd-913ad67ce86f" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1163, 583" SelectedTabbedMdiWindow="87aa5289-0a64-404a-8ed6-e0681720498c"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="0a1df578-ab2d-47ff-80a5-99668cc48055" /><DocumentWindow Key="C:\Users\Laptop\PSoC_Labs\lab3-SavkaR\Lab3_Task2\Keyboard.cydsn\main.c" Guid="87aa5289-0a64-404a-8ed6-e0681720498c" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>

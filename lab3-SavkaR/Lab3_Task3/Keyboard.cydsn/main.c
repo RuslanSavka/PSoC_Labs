@@ -55,19 +55,22 @@ void initMatrix()
 }
 
 /* read keypad */
-void readMatrix()
+static void readMatrix()
 {
-    for(int c=0;c<3;c++)
+    uint8_t row_counter = sizeof(ROW_x_Read)/sizeof(ROW_x_Read[0]);
+    uint8_t column_counter = sizeof(COLUMN_x_Write)/sizeof(COLUMN_x_Write[0]);
+    
+    for(int column_index=0; column_index<column_counter; column_index++)
     {
-        COLUMN_x_SetDriveMode[c](COLUMN_0_DM_STRONG);
-        COLUMN_x_Write;
+        COLUMN_x_SetDriveMode[column_index](COLUMN_0_DM_STRONG);
+        COLUMN_x_Write[column_counter] (0); 
 
-        for(int r=0; r<4; r++)
+        for(int row_index = 0; row_index < 4; row_index++)
         {
-            keys[r][c] = ROW_x_Read[r]();
+            keys[row_index][column_index] = ROW_x_Read[row_index]();
         }
 
-        COLUMN_x_SetDriveMode[c](COLUMN_0_DM_DIG_HIZ);
+        COLUMN_x_SetDriveMode[column_index](COLUMN_0_DM_DIG_HIZ);
     }
 }
 

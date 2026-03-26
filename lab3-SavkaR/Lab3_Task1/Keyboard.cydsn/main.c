@@ -12,13 +12,13 @@
 #include "project.h"
 
 /* pointers */
-static void (*COLUMN_x_SetDriveMode[3])(uint8) = {
+static void (*COLUMN_x_SetDriveMode[3])(uint8 mode) = {
     COLUMN_0_SetDriveMode,
     COLUMN_1_SetDriveMode,
     COLUMN_2_SetDriveMode
 };
 
-static void (*COLUMN_x_Write[3])(uint8) = {
+static void (*COLUMN_x_Write[3])(uint8 value) = {
     COLUMN_0_Write,
     COLUMN_1_Write,
     COLUMN_2_Write
@@ -43,28 +43,31 @@ uint8 keys_map[4][3] = {
 uint8 keys[4][3];
 
 /* init */
-void initMatrix()
+static void initMatrix()
 {
-    for(int i=0;i<3;i++)
-        COLUMN_x_SetDriveMode[i](COLUMN_0_DM_DIG_HIZ);
+    for(int column_index = 0; column_index < 3; column_index++)
+        COLUMN_x_SetDriveMode[column_index](COLUMN_0_DM_DIG_HIZ);
 }
 
 /* read keypad */
 
 /* read keypad */
-void readMatrix()
+static void readMatrix()
 {
-    for(int c=0;c<3;c++)
+    uint8_t row_counter = sizeof(ROW_x_Read)/sizeof(ROW_x_Read[0]);
+    uint8_t column_counter = sizeof(COLUMN_x_Write)/sizeof(COLUMN_x_Write[0]);
+    
+    for(int column_index=0; column_index<column_counter; column_index++)
     {
-        COLUMN_x_SetDriveMode[c](COLUMN_0_DM_STRONG);
-        COLUMN_x_Write; 
+        COLUMN_x_SetDriveMode[column_index](COLUMN_0_DM_STRONG);
+        COLUMN_x_Write[column_counter] (0); 
 
-        for(int r=0; r<4; r++)
+        for(int row_index = 0; row_index < 4; row_index++)
         {
-            keys[r][c] = ROW_x_Read[r]();
+            keys[row_index][column_index] = ROW_x_Read[row_index]();
         }
 
-        COLUMN_x_SetDriveMode[c](COLUMN_0_DM_DIG_HIZ);
+        COLUMN_x_SetDriveMode[column_index](COLUMN_0_DM_DIG_HIZ);
     }
 }
 
@@ -88,76 +91,37 @@ void LED_White()
 void setColor(uint8 key)
 {
     LED_Off();
-
-    switch(key)
-    {
-        case 1:
-        case 7:
-            LED_R_Write(0);
-            break;
-
-        case 2:
-        case 8:
-            LED_G_Write(0);
-            break;
-
-        case 3:
-        case 9:
-            LED_B_Write(0);
-            break;
-
-        case 4:
-        case 10: // *
-            LED_R_Write(0);
-            LED_G_Write(0);
-            break;
-
-        case 5:
-        case 0:
-            LED_R_Write(0);
-            LED_B_Write(0);
-            break;
-
-        case 6:
-        case 11: // #
-            LED_G_Write(0);
-            LED_B_Write(0);
-            break;
-    }
-}
-
-/* check if any button pressed */
-uint8 isPressed()
-{
-    for(int r=0;r<4;r++)
-        for(int c=0;c<3;c++)
-            if(keys[r][c] == 0)
-                return 1;
-
-    return 0;
+    if (key == 1 || key == 7) { LED_R_Write(0); }
+    else if (key == 2 || key == 8) { LED_G_Write(0); }
+    else if (key == 3 || key == 9) { LED_B_Write(0); }
+    else if (key == 4 || key == 10) { LED_R_Write(0); LED_G_Write(0); }
+    else if (key == 5 || key == 0) { LED_R_Write(0); LED_B_Write(0); }
+    else if (key == 6 || key == 11) { LED_G_Write(0); LED_B_Write(0); }
 }
 
 int main(void)
 {
     CyGlobalIntEnable;
-
+    
+    // Ініціалізація компонентів
+    SW_Tx_UART_Start(); 
     initMatrix();
 
     uint8 last_key = 255;
+    char uart_buffer[32]; // буфер для тексту
 
-    LED_White(); // стартовий стан
+    LED_White(); 
 
     for(;;)
     {
         readMatrix();
-
         uint8 found = 0;
 
-        for(int r=0;r<4;r++)
+        for(int r = 0; r < 4; r++)
         {
-            for(int c=0;c<3;c++)
+            for(int c = 0; c < 3; c++)
             {
-                if(keys[r][c] == 0)
+                if(keys[r][c] == 0) 
                 {
                     uint8 key = keys_map[r][c];
 
@@ -165,8 +129,23 @@ int main(void)
                     {
                         last_key = key;
                         setColor(key);
+                        
+                        // ВИВІД В КОНСОЛЬ ЧЕРЕЗ PutString
+                        if (key == 0)      SW_Tx_UART_PutString("Button 0 pressed");
+                        else if (key == 1) SW_Tx_UART_PutString("Button 1 pressed");
+                        else if (key == 2) SW_Tx_UART_PutString("Button 2 pressed");
+                        else if (key == 3) SW_Tx_UART_PutString("Button 3 pressed");
+                        else if (key == 4) SW_Tx_UART_PutString("Button 4 pressed");
+                        else if (key == 5) SW_Tx_UART_PutString("Button 5 pressed");
+                        else if (key == 6) SW_Tx_UART_PutString("Button 6 pressed");
+                        else if (key == 7) SW_Tx_UART_PutString("Button 7 pressed");
+                        else if (key == 8) SW_Tx_UART_PutString("Button 8 pressed");
+                        else if (key == 9) SW_Tx_UART_PutString("Button 9 pressed");
+                        else if (key == 10) SW_Tx_UART_PutString("Button * pressed");
+                        else if (key == 11) SW_Tx_UART_PutString("Button # pressed");
+                        else SW_Tx_UART_PutString("Unknown button");
+                        SW_Tx_UART_PutCRLF(); // Перехід на новий рядок
                     }
-
                     found = 1;
                 }
             }
@@ -177,8 +156,10 @@ int main(void)
             if(last_key != 255)
             {
                 last_key = 255;
-                LED_Off(); // відпустив → вимкнути
+                LED_Off();
             }
         }
+        
+        CyDelay(50); // Затримка для стабільної роботи (антибрязк)
     }
 }
