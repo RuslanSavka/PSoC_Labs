@@ -144,45 +144,6 @@
 <VisibleNodeIds>
 <v>Lab3_SavkaR</v>
 <v>Lab3_SavkaR\Keyboard</v>
-<v>Lab3_SavkaR\Keyboard\CortexM0</v>
-<v>Lab3_SavkaR\Keyboard\CortexM0\ARM_GCC_541</v>
-<v>Lab3_SavkaR\Keyboard\CortexM0\ARM_GCC_541\Debug</v>
-<v>Lab3_SavkaR\Keyboard\CortexM0\ARM_GCC_541\Debug\Listing Files</v>
-<v>Lab3_SavkaR\Keyboard\CortexM0\ARM_GCC_541\Debug\Listing Files\Button.lst</v>
-<v>Lab3_SavkaR\Keyboard\CortexM0\ARM_GCC_541\Debug\Listing Files\Button_PM.lst</v>
-<v>Lab3_SavkaR\Keyboard\CortexM0\ARM_GCC_541\Debug\Listing Files\Cm0Start.lst</v>
-<v>Lab3_SavkaR\Keyboard\CortexM0\ARM_GCC_541\Debug\Listing Files\COLUMN_0.lst</v>
-<v>Lab3_SavkaR\Keyboard\CortexM0\ARM_GCC_541\Debug\Listing Files\COLUMN_0_PM.lst</v>
-<v>Lab3_SavkaR\Keyboard\CortexM0\ARM_GCC_541\Debug\Listing Files\COLUMN_1.lst</v>
-<v>Lab3_SavkaR\Keyboard\CortexM0\ARM_GCC_541\Debug\Listing Files\COLUMN_1_PM.lst</v>
-<v>Lab3_SavkaR\Keyboard\CortexM0\ARM_GCC_541\Debug\Listing Files\COLUMN_2.lst</v>
-<v>Lab3_SavkaR\Keyboard\CortexM0\ARM_GCC_541\Debug\Listing Files\COLUMN_2_PM.lst</v>
-<v>Lab3_SavkaR\Keyboard\CortexM0\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
-<v>Lab3_SavkaR\Keyboard\CortexM0\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
-<v>Lab3_SavkaR\Keyboard\CortexM0\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
-<v>Lab3_SavkaR\Keyboard\CortexM0\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
-<v>Lab3_SavkaR\Keyboard\CortexM0\ARM_GCC_541\Debug\Listing Files\CyLFClk.lst</v>
-<v>Lab3_SavkaR\Keyboard\CortexM0\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
-<v>Lab3_SavkaR\Keyboard\CortexM0\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
-<v>Lab3_SavkaR\Keyboard\CortexM0\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
-<v>Lab3_SavkaR\Keyboard\CortexM0\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
-<v>Lab3_SavkaR\Keyboard\CortexM0\ARM_GCC_541\Debug\Listing Files\LED_B.lst</v>
-<v>Lab3_SavkaR\Keyboard\CortexM0\ARM_GCC_541\Debug\Listing Files\LED_B_PM.lst</v>
-<v>Lab3_SavkaR\Keyboard\CortexM0\ARM_GCC_541\Debug\Listing Files\LED_G.lst</v>
-<v>Lab3_SavkaR\Keyboard\CortexM0\ARM_GCC_541\Debug\Listing Files\LED_G_PM.lst</v>
-<v>Lab3_SavkaR\Keyboard\CortexM0\ARM_GCC_541\Debug\Listing Files\LED_R.lst</v>
-<v>Lab3_SavkaR\Keyboard\CortexM0\ARM_GCC_541\Debug\Listing Files\LED_R_PM.lst</v>
-<v>Lab3_SavkaR\Keyboard\CortexM0\ARM_GCC_541\Debug\Listing Files\main.lst</v>
-<v>Lab3_SavkaR\Keyboard\CortexM0\ARM_GCC_541\Debug\Listing Files\ROW_0.lst</v>
-<v>Lab3_SavkaR\Keyboard\CortexM0\ARM_GCC_541\Debug\Listing Files\ROW_0_PM.lst</v>
-<v>Lab3_SavkaR\Keyboard\CortexM0\ARM_GCC_541\Debug\Listing Files\ROW_1.lst</v>
-<v>Lab3_SavkaR\Keyboard\CortexM0\ARM_GCC_541\Debug\Listing Files\ROW_1_PM.lst</v>
-<v>Lab3_SavkaR\Keyboard\CortexM0\ARM_GCC_541\Debug\Listing Files\ROW_2.lst</v>
-<v>Lab3_SavkaR\Keyboard\CortexM0\ARM_GCC_541\Debug\Listing Files\ROW_2_PM.lst</v>
-<v>Lab3_SavkaR\Keyboard\CortexM0\ARM_GCC_541\Debug\Listing Files\ROW_3.lst</v>
-<v>Lab3_SavkaR\Keyboard\CortexM0\ARM_GCC_541\Debug\Listing Files\ROW_3_PM.lst</v>
-<v>Lab3_SavkaR\Keyboard\CortexM0\ARM_GCC_541\Debug\Listing Files\SW_Tx_UART.lst</v>
-<v>Lab3_SavkaR\Keyboard\CortexM0\ARM_GCC_541\Debug\Listing Files\SW_Tx_UART_AsmGnu.lst</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStates>
@@ -231,7 +192,7 @@
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1163, 583" SelectedTabbedMdiWindow="87aa5289-0a64-404a-8ed6-e0681720498c"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="0a1df578-ab2d-47ff-80a5-99668cc48055" /><DocumentWindow Key="C:\Users\Laptop\PSoC_Labs\lab3-SavkaR\Lab3_Task2\Keyboard.cydsn\main.c" Guid="87aa5289-0a64-404a-8ed6-e0681720498c" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1163, 583" SelectedTabbedMdiWindow="5816913c-ffad-4361-b7b4-6015a1af199a"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="0a1df578-ab2d-47ff-80a5-99668cc48055" /><DocumentWindow Key="C:\Users\Laptop\PSoC_Labs\lab3-SavkaR\Lab3_Task2\Keyboard.cydsn\main.c" Guid="5816913c-ffad-4361-b7b4-6015a1af199a" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>

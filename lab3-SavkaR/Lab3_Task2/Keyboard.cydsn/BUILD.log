@@ -1,5 +1,5 @@
---------------- Build Started: 03/22/2026 20:49:48 Project: Keyboard, Configuration: ARM GCC 5.4-2016-q2-update Debug ---------------
-cydsfit.exe -.appdatapath "C:\Users\Laptop\AppData\Local\Cypress Semiconductor\PSoC Creator\4.4" -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -.fdsreffile=referenced_files.txt -p C:\Users\Laptop\Desktop\psoc-labs-SR\lab3-SavkaR\Lab3_Task2\Keyboard.cydsn\Keyboard.cyprj -d CY8C4245AXI-483 -s C:\Users\Laptop\Desktop\psoc-labs-SR\lab3-SavkaR\Lab3_Task2\Keyboard.cydsn\Generated_Source\PSoC4 -- -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE
+--------------- Build Started: 03/28/2026 23:45:59 Project: Keyboard, Configuration: ARM GCC 5.4-2016-q2-update Debug ---------------
+cydsfit.exe -.appdatapath "C:\Users\Laptop\AppData\Local\Cypress Semiconductor\PSoC Creator\4.4" -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -.fdsreffile=referenced_files.txt -p C:\Users\Laptop\PSoC_Labs\lab3-SavkaR\Lab3_Task2\Keyboard.cydsn\Keyboard.cyprj -d CY8C4245AXI-483 -s C:\Users\Laptop\PSoC_Labs\lab3-SavkaR\Lab3_Task2\Keyboard.cydsn\Generated_Source\PSoC4 -- -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE
 Elaborating Design...
 HDL Generation...
 Synthesis...
@@ -16,18 +16,14 @@ API Generation...
 Dependency Generation...
 Cleanup...
 arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/main.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c main.c -o .\CortexM0\ARM_GCC_541\Debug\main.o
-main.c: In function 'readMatrix':
-main.c:58:9: warning: statement with no effect [-Wunused-value]
-         COLUMN_x_Write;
-         ^
 arm-none-eabi-ar.exe -rs .\CortexM0\ARM_GCC_541\Debug\Keyboard.a .\CortexM0\ARM_GCC_541\Debug\Button.o .\CortexM0\ARM_GCC_541\Debug\Button_PM.o .\CortexM0\ARM_GCC_541\Debug\LED_R.o .\CortexM0\ARM_GCC_541\Debug\LED_R_PM.o .\CortexM0\ARM_GCC_541\Debug\LED_G.o .\CortexM0\ARM_GCC_541\Debug\LED_G_PM.o .\CortexM0\ARM_GCC_541\Debug\LED_B.o .\CortexM0\ARM_GCC_541\Debug\LED_B_PM.o .\CortexM0\ARM_GCC_541\Debug\SW_Tx_UART.o .\CortexM0\ARM_GCC_541\Debug\COLUMN_0.o .\CortexM0\ARM_GCC_541\Debug\COLUMN_0_PM.o .\CortexM0\ARM_GCC_541\Debug\COLUMN_1.o .\CortexM0\ARM_GCC_541\Debug\COLUMN_1_PM.o .\CortexM0\ARM_GCC_541\Debug\COLUMN_2.o .\CortexM0\ARM_GCC_541\Debug\COLUMN_2_PM.o .\CortexM0\ARM_GCC_541\Debug\ROW_0.o .\CortexM0\ARM_GCC_541\Debug\ROW_0_PM.o .\CortexM0\ARM_GCC_541\Debug\ROW_1.o .\CortexM0\ARM_GCC_541\Debug\ROW_1_PM.o .\CortexM0\ARM_GCC_541\Debug\ROW_2.o .\CortexM0\ARM_GCC_541\Debug\ROW_2_PM.o .\CortexM0\ARM_GCC_541\Debug\ROW_3.o .\CortexM0\ARM_GCC_541\Debug\ROW_3_PM.o .\CortexM0\ARM_GCC_541\Debug\CyFlash.o .\CortexM0\ARM_GCC_541\Debug\CyLib.o .\CortexM0\ARM_GCC_541\Debug\cyPm.o .\CortexM0\ARM_GCC_541\Debug\cyutils.o .\CortexM0\ARM_GCC_541\Debug\CyLFClk.o .\CortexM0\ARM_GCC_541\Debug\cy_em_eeprom.o .\CortexM0\ARM_GCC_541\Debug\SW_Tx_UART_AsmGnu.o .\CortexM0\ARM_GCC_541\Debug\CyBootAsmGnu.o
 arm-none-eabi-ar.exe: creating .\CortexM0\ARM_GCC_541\Debug\Keyboard.a
-arm-none-eabi-gcc.exe -Wl,--start-group -o C:\Users\Laptop\Desktop\psoc-labs-SR\lab3-SavkaR\Lab3_Task2\Keyboard.cydsn\CortexM0\ARM_GCC_541\Debug\Keyboard.elf .\CortexM0\ARM_GCC_541\Debug\main.o .\CortexM0\ARM_GCC_541\Debug\cyfitter_cfg.o .\CortexM0\ARM_GCC_541\Debug\cymetadata.o .\CortexM0\ARM_GCC_541\Debug\Cm0Start.o .\CortexM0\ARM_GCC_541\Debug\Keyboard.a -mcpu=cortex-m0 -mthumb -L Generated_Source\PSoC4 -Wl,-Map,.\CortexM0\ARM_GCC_541\Debug/Keyboard.map -T Generated_Source\PSoC4\cm0gcc.ld -specs=nano.specs -Wl,--gc-sections -g -ffunction-sections -Og -ffat-lto-objects -Wl,--end-group
-cyelftool.exe -C C:\Users\Laptop\Desktop\psoc-labs-SR\lab3-SavkaR\Lab3_Task2\Keyboard.cydsn\CortexM0\ARM_GCC_541\Debug\Keyboard.elf --flash_row_size 128 --flash_size 32768 --flash_offset 0x00000000
+arm-none-eabi-gcc.exe -Wl,--start-group -o C:\Users\Laptop\PSoC_Labs\lab3-SavkaR\Lab3_Task2\Keyboard.cydsn\CortexM0\ARM_GCC_541\Debug\Keyboard.elf .\CortexM0\ARM_GCC_541\Debug\main.o .\CortexM0\ARM_GCC_541\Debug\cyfitter_cfg.o .\CortexM0\ARM_GCC_541\Debug\cymetadata.o .\CortexM0\ARM_GCC_541\Debug\Cm0Start.o .\CortexM0\ARM_GCC_541\Debug\Keyboard.a -mcpu=cortex-m0 -mthumb -L Generated_Source\PSoC4 -Wl,-Map,.\CortexM0\ARM_GCC_541\Debug/Keyboard.map -T Generated_Source\PSoC4\cm0gcc.ld -specs=nano.specs -Wl,--gc-sections -g -ffunction-sections -Og -ffat-lto-objects -Wl,--end-group
+cyelftool.exe -C C:\Users\Laptop\PSoC_Labs\lab3-SavkaR\Lab3_Task2\Keyboard.cydsn\CortexM0\ARM_GCC_541\Debug\Keyboard.elf --flash_row_size 128 --flash_size 32768 --flash_offset 0x00000000
 No ELF section .cychecksum found, creating one
 Application checksum calculated and stored in ELF section .cychecksum
 Checksum calculated and stored in ELF section .cymeta
-cyelftool.exe -S C:\Users\Laptop\Desktop\psoc-labs-SR\lab3-SavkaR\Lab3_Task2\Keyboard.cydsn\CortexM0\ARM_GCC_541\Debug\Keyboard.elf
-Flash used: 2376 of 32768 bytes (7,3%).
-SRAM used: 1560 of 4096 bytes (38,1%). Stack: 1024 bytes. Heap: 128 bytes.
---------------- Build Succeeded: 03/22/2026 20:49:52 ---------------
+cyelftool.exe -S C:\Users\Laptop\PSoC_Labs\lab3-SavkaR\Lab3_Task2\Keyboard.cydsn\CortexM0\ARM_GCC_541\Debug\Keyboard.elf
+Flash used: 2960 of 32768 bytes (9,0%).
+SRAM used: 1568 of 4096 bytes (38,3%). Stack: 1024 bytes. Heap: 128 bytes.
+--------------- Build Succeeded: 03/28/2026 23:46:03 ---------------
