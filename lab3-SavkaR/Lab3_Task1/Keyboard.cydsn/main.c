@@ -1,129 +1,102 @@
 #include "project.h"
+#include <string.h>
 
-/* ---------- LED helper ---------- */
 void SetLED(uint8_t r, uint8_t g, uint8_t b) {
     LED_R_Write(r);
     LED_G_Write(g);
     LED_B_Write(b);
 }
+char ScanKeypad(void) {
+    char key = 0;
 
-/* pointers */
-static void (*COLUMN_x_SetDriveMode[3])(uint8_t mode) = {
-    COLUMN_0_SetDriveMode,
-    COLUMN_1_SetDriveMode,
-    COLUMN_2_SetDriveMode
-};
+    C_1_Write(0); C_2_Write(1); C_3_Write(1);
+    CyDelayUs(10);
+    if (R_1_Read() == 0) key = '1';
+    if (R_2_Read() == 0) key = '4';
+    if (R_3_Read() == 0) key = '7';
+    if (R_4_Read() == 0) key = '*';
 
-static void (*COLUMN_x_Write[3])(uint8_t value) = {
-    COLUMN_0_Write,
-    COLUMN_1_Write,
-    COLUMN_2_Write
-};
+    C_1_Write(1); C_2_Write(0); C_3_Write(1);
+    CyDelayUs(10);
+    if (R_1_Read() == 0) key = '2';
+    if (R_2_Read() == 0) key = '5';
+    if (R_3_Read() == 0) key = '8';
+    if (R_4_Read() == 0) key = '0';
 
-static uint8 (*ROW_x_Read[4])() = {
-    ROW_0_Read,
-    ROW_1_Read,
-    ROW_2_Read,
-    ROW_3_Read
-};
+    C_1_Write(1); C_2_Write(1); C_3_Write(0);
+    CyDelayUs(10);
+    if (R_1_Read() == 0) key = '3';
+    if (R_2_Read() == 0) key = '6';
+    if (R_3_Read() == 0) key = '9';
+    if (R_4_Read() == 0) key = '#';
 
-/* key map */
-uint8 keys_map[4][3] = {
-    {1,2,3},
-    {4,5,6},
-    {7,8,9},
-    {10,0,11}
-};
 
-/* matrix state */
-uint8 keys[4][3];
+    C_1_Write(1); C_2_Write(1); C_3_Write(1);
 
-/* init */
-static void initMatrix()
-{
-    for(int column_index = 0; column_index < 3; column_index++)
-        COLUMN_x_SetDriveMode[column_index](COLUMN_0_DM_DIG_HIZ);
+    return key;
 }
+int main(void) {
+    CyGlobalIntEnable; 
 
-/* read keypad */
-static void readMatrix()
-{
-    uint8_t row_counter = sizeof(ROW_x_Read)/sizeof(ROW_x_Read[0]);
-    uint8_t column_counter = sizeof(COLUMN_x_Write)/sizeof(COLUMN_x_Write[0]);
-    
-    for(int column_index=0; column_index<column_counter; column_index++)
-    {
-        COLUMN_x_SetDriveMode[column_index](COLUMN_0_DM_STRONG);
-        COLUMN_x_Write[column_counter] (0); 
-
-        for(int row_index = 0; row_index < row_counter; row_index++)
-        {
-            keys[row_index][column_index] = ROW_x_Read[row_index]();
-        }
-
-        COLUMN_x_SetDriveMode[column_index](COLUMN_0_DM_DIG_HIZ);
-    }
-}
-
-
-int main(void)
-{
-    CyGlobalIntEnable;
     SW_Tx_UART_Start();
+    SW_Tx_UART_PutString("\r\n Start \r\n");
 
-    initMatrix();
+    char key = 0;
+    char last_key = 0;
+    uint8_t is_started = 0; 
 
-    uint8_t last_key = 255; // щоб не повторювало
+    char password[] = "123"; 
+    char input_buf[5] = {0};  
+    uint8_t input_idx = 0;
 
-    for(;;)
-    {
-        readMatrix();
+    for(;;) {
+        key = ScanKeypad();
 
-        for(int i = 0; i < 4; i++)
-        {
-            for(int j = 0; j < 3; j++)
-            {
-                if(keys[i][j] == 0) // натиснута кнопка
-                {
-                    uint8 key = keys_map[i][j];
+        //Завдання 1:
+        if (key == 0) {
+           
+            if (is_started == 0) {
+                SetLED(0, 0, 0); 
+            } else {
+                SetLED(1, 1, 1); 
+            }
+        } 
+        else {
+            is_started = 1; 
 
-                    if(key != last_key)
-                    {
-                        last_key = key;
-
-                        /* UART */
-                        SW_Tx_UART_PutString("Button ");
-                        SW_Tx_UART_PutChar(key + '0');
-                        SW_Tx_UART_PutString(" pressed\r\n");
-
-                        /* ---------- COLOR LOGIC ---------- */
-                        switch(key)
-                        {
-                            case 1: case 7: SetLED(0,1,1); break; // Red
-                            case 2: case 8: SetLED(1,0,1); break; // Green
-                            case 3: case 9: SetLED(1,1,0); break; // Blue
-                            case 4: case 10: SetLED(0,0,1); break; // Yellow (*)
-                            case 5: case 0: SetLED(0,1,0); break; // Purple
-                            case 6: case 11: SetLED(1,0,0); break; // Cyan (#)
-                            default: SetLED(1,1,1); break;
-                        }
-                    }
-                }
+            //Завдання 2: 
+            switch(key) {
+                case '1': case '7': SetLED(0, 1, 1); break; 
+                case '2': case '8': SetLED(1, 0, 1); break; 
+                case '3': case '9': SetLED(1, 1, 0); break; 
+                case '4': case '*': SetLED(0, 0, 1); break; 
+                case '5': case '0': SetLED(0, 1, 0); break; 
+                case '6': case '#': SetLED(1, 0, 0); break; 
+                default:            SetLED(1, 1, 1); break; 
             }
         }
 
-        /* якщо нічого не натиснуто */
-        uint8 any_pressed = 0;
-        for(int i=0;i<4;i++)
-            for(int j=0;j<3;j++)
-                if(keys[i][j]==0) any_pressed = 1;
+        //Завдання 3: Пароль
 
-        if(!any_pressed)
-        {
-            last_key = 255;
-            SetLED(1,1,1); // вимкнено
+        if (key != 0 && last_key == 0) {
+            input_buf[input_idx] = key;
+            input_idx++;
+            
+            SW_Tx_UART_PutChar(key); 
+
+            if (input_idx >= 3) {
+                input_buf[4] = '\0'; 
+                
+                if (strcmp(input_buf, password) == 0) {
+                    SW_Tx_UART_PutString("\r\n >> PASS\r\n");
+                } else {
+                    SW_Tx_UART_PutString("\r\n >> Fail\r\n");
+                }
+                
+                input_idx = 0; 
+            }
         }
-
-        CyDelay(20); // debounce
+        last_key = key; 
+        CyDelay(20);    
     }
 }
