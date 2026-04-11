@@ -148,45 +148,6 @@
 <VisibleNodeIds>
 <v>Lab3_SavkaR</v>
 <v>Lab3_SavkaR\Keyboard</v>
-<v>Lab3_SavkaR\Keyboard\CortexM0</v>
-<v>Lab3_SavkaR\Keyboard\CortexM0\ARM_GCC_541</v>
-<v>Lab3_SavkaR\Keyboard\CortexM0\ARM_GCC_541\Debug</v>
-<v>Lab3_SavkaR\Keyboard\CortexM0\ARM_GCC_541\Debug\Listing Files</v>
-<v>Lab3_SavkaR\Keyboard\CortexM0\ARM_GCC_541\Debug\Listing Files\Button.lst</v>
-<v>Lab3_SavkaR\Keyboard\CortexM0\ARM_GCC_541\Debug\Listing Files\Button_PM.lst</v>
-<v>Lab3_SavkaR\Keyboard\CortexM0\ARM_GCC_541\Debug\Listing Files\C_1.lst</v>
-<v>Lab3_SavkaR\Keyboard\CortexM0\ARM_GCC_541\Debug\Listing Files\C_1_PM.lst</v>
-<v>Lab3_SavkaR\Keyboard\CortexM0\ARM_GCC_541\Debug\Listing Files\C_2.lst</v>
-<v>Lab3_SavkaR\Keyboard\CortexM0\ARM_GCC_541\Debug\Listing Files\C_2_PM.lst</v>
-<v>Lab3_SavkaR\Keyboard\CortexM0\ARM_GCC_541\Debug\Listing Files\C_3.lst</v>
-<v>Lab3_SavkaR\Keyboard\CortexM0\ARM_GCC_541\Debug\Listing Files\C_3_PM.lst</v>
-<v>Lab3_SavkaR\Keyboard\CortexM0\ARM_GCC_541\Debug\Listing Files\Cm0Start.lst</v>
-<v>Lab3_SavkaR\Keyboard\CortexM0\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
-<v>Lab3_SavkaR\Keyboard\CortexM0\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
-<v>Lab3_SavkaR\Keyboard\CortexM0\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
-<v>Lab3_SavkaR\Keyboard\CortexM0\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
-<v>Lab3_SavkaR\Keyboard\CortexM0\ARM_GCC_541\Debug\Listing Files\CyLFClk.lst</v>
-<v>Lab3_SavkaR\Keyboard\CortexM0\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
-<v>Lab3_SavkaR\Keyboard\CortexM0\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
-<v>Lab3_SavkaR\Keyboard\CortexM0\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
-<v>Lab3_SavkaR\Keyboard\CortexM0\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
-<v>Lab3_SavkaR\Keyboard\CortexM0\ARM_GCC_541\Debug\Listing Files\LED_B.lst</v>
-<v>Lab3_SavkaR\Keyboard\CortexM0\ARM_GCC_541\Debug\Listing Files\LED_B_PM.lst</v>
-<v>Lab3_SavkaR\Keyboard\CortexM0\ARM_GCC_541\Debug\Listing Files\LED_G.lst</v>
-<v>Lab3_SavkaR\Keyboard\CortexM0\ARM_GCC_541\Debug\Listing Files\LED_G_PM.lst</v>
-<v>Lab3_SavkaR\Keyboard\CortexM0\ARM_GCC_541\Debug\Listing Files\LED_R.lst</v>
-<v>Lab3_SavkaR\Keyboard\CortexM0\ARM_GCC_541\Debug\Listing Files\LED_R_PM.lst</v>
-<v>Lab3_SavkaR\Keyboard\CortexM0\ARM_GCC_541\Debug\Listing Files\main.lst</v>
-<v>Lab3_SavkaR\Keyboard\CortexM0\ARM_GCC_541\Debug\Listing Files\R_1.lst</v>
-<v>Lab3_SavkaR\Keyboard\CortexM0\ARM_GCC_541\Debug\Listing Files\R_1_PM.lst</v>
-<v>Lab3_SavkaR\Keyboard\CortexM0\ARM_GCC_541\Debug\Listing Files\R_2.lst</v>
-<v>Lab3_SavkaR\Keyboard\CortexM0\ARM_GCC_541\Debug\Listing Files\R_2_PM.lst</v>
-<v>Lab3_SavkaR\Keyboard\CortexM0\ARM_GCC_541\Debug\Listing Files\R_3.lst</v>
-<v>Lab3_SavkaR\Keyboard\CortexM0\ARM_GCC_541\Debug\Listing Files\R_3_PM.lst</v>
-<v>Lab3_SavkaR\Keyboard\CortexM0\ARM_GCC_541\Debug\Listing Files\R_4.lst</v>
-<v>Lab3_SavkaR\Keyboard\CortexM0\ARM_GCC_541\Debug\Listing Files\R_4_PM.lst</v>
-<v>Lab3_SavkaR\Keyboard\CortexM0\ARM_GCC_541\Debug\Listing Files\SW_Tx_UART.lst</v>
-<v>Lab3_SavkaR\Keyboard\CortexM0\ARM_GCC_541\Debug\Listing Files\SW_Tx_UART_AsmGnu.lst</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStates>

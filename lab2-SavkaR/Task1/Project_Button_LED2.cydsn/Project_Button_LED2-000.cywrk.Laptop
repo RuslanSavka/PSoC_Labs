@@ -135,35 +135,6 @@
 <VisibleNodeIds>
 <v>Project_Button_LED2-000</v>
 <v>Project_Button_LED2-000\Project_Button_LED2</v>
-<v>Project_Button_LED2-000\Project_Button_LED2\CortexM0</v>
-<v>Project_Button_LED2-000\Project_Button_LED2\CortexM0\ARM_GCC_541</v>
-<v>Project_Button_LED2-000\Project_Button_LED2\CortexM0\ARM_GCC_541\Debug</v>
-<v>Project_Button_LED2-000\Project_Button_LED2\CortexM0\ARM_GCC_541\Debug\Listing Files</v>
-<v>Project_Button_LED2-000\Project_Button_LED2\CortexM0\ARM_GCC_541\Debug\Listing Files\Button.lst</v>
-<v>Project_Button_LED2-000\Project_Button_LED2\CortexM0\ARM_GCC_541\Debug\Listing Files\Button_PM.lst</v>
-<v>Project_Button_LED2-000\Project_Button_LED2\CortexM0\ARM_GCC_541\Debug\Listing Files\Cm0Start.lst</v>
-<v>Project_Button_LED2-000\Project_Button_LED2\CortexM0\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
-<v>Project_Button_LED2-000\Project_Button_LED2\CortexM0\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
-<v>Project_Button_LED2-000\Project_Button_LED2\CortexM0\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
-<v>Project_Button_LED2-000\Project_Button_LED2\CortexM0\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
-<v>Project_Button_LED2-000\Project_Button_LED2\CortexM0\ARM_GCC_541\Debug\Listing Files\CyLFClk.lst</v>
-<v>Project_Button_LED2-000\Project_Button_LED2\CortexM0\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
-<v>Project_Button_LED2-000\Project_Button_LED2\CortexM0\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
-<v>Project_Button_LED2-000\Project_Button_LED2\CortexM0\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
-<v>Project_Button_LED2-000\Project_Button_LED2\CortexM0\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
-<v>Project_Button_LED2-000\Project_Button_LED2\CortexM0\ARM_GCC_541\Debug\Listing Files\LED_B.lst</v>
-<v>Project_Button_LED2-000\Project_Button_LED2\CortexM0\ARM_GCC_541\Debug\Listing Files\LED_B_PM.lst</v>
-<v>Project_Button_LED2-000\Project_Button_LED2\CortexM0\ARM_GCC_541\Debug\Listing Files\LED_G.lst</v>
-<v>Project_Button_LED2-000\Project_Button_LED2\CortexM0\ARM_GCC_541\Debug\Listing Files\LED_G_PM.lst</v>
-<v>Project_Button_LED2-000\Project_Button_LED2\CortexM0\ARM_GCC_541\Debug\Listing Files\LED_R.lst</v>
-<v>Project_Button_LED2-000\Project_Button_LED2\CortexM0\ARM_GCC_541\Debug\Listing Files\LED_R_PM.lst</v>
-<v>Project_Button_LED2-000\Project_Button_LED2\CortexM0\ARM_GCC_541\Debug\Listing Files\main.lst</v>
-<v>Project_Button_LED2-000\Project_Button_LED2\CortexM0\ARM_GCC_541\Debug\Listing Files\SW_Tx_UART.lst</v>
-<v>Project_Button_LED2-000\Project_Button_LED2\CortexM0\ARM_GCC_541\Debug\Listing Files\SW_Tx_UART_AsmGnu.lst</v>
-<v>Project_Button_LED2-000\Project_Button_LED2\CortexM0\ARM_GCC_541\Debug\Project_Button_LED2.elf</v>
-<v>Project_Button_LED2-000\Project_Button_LED2\CortexM0\ARM_GCC_541\Debug\Project_Button_LED2.hex</v>
-<v>Project_Button_LED2-000\Project_Button_LED2\CortexM0\ARM_GCC_541\Debug\Project_Button_LED2.map</v>
-<v>Project_Button_LED2-000\Project_Button_LED2\Project_Button_LED2.gpdsc</v>
 <v>Project_Button_LED2-000\Project_Button_LED2\Project_Button_LED2.rpt</v>
 <v>Project_Button_LED2-000\Project_Button_LED2\Project_Button_LED2_timing.html</v>
 </VisibleNodeIds>

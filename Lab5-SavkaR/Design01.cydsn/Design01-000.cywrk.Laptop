@@ -18,7 +18,7 @@
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Design01-000\Design01\TopDesign">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Design01-000\Design01\Source Files\main.c">
 <ExpandedNodeIds>
 <v>Design01-000</v>
 <v>Design01-000\Design01</v>
@@ -148,45 +148,6 @@
 <VisibleNodeIds>
 <v>Design01-000</v>
 <v>Design01-000\Design01</v>
-<v>Design01-000\Design01\CortexM0</v>
-<v>Design01-000\Design01\CortexM0\ARM_GCC_541</v>
-<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug</v>
-<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files</v>
-<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\C_1.lst</v>
-<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\C_1_PM.lst</v>
-<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\C_2.lst</v>
-<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\C_2_PM.lst</v>
-<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\C_3.lst</v>
-<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\C_3_PM.lst</v>
-<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\Cm0Start.lst</v>
-<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
-<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
-<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
-<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
-<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\CyLFClk.lst</v>
-<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
-<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
-<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
-<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
-<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\main.lst</v>
-<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_CLK.lst</v>
-<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_CLK_PM.lst</v>
-<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_DO.lst</v>
-<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_DO_PM.lst</v>
-<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_Latch.lst</v>
-<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_Latch_PM.lst</v>
-<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\R_1.lst</v>
-<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\R_1_PM.lst</v>
-<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\R_2.lst</v>
-<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\R_2_PM.lst</v>
-<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\R_3.lst</v>
-<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\R_3_PM.lst</v>
-<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\R_4.lst</v>
-<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\R_4_PM.lst</v>
-<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\Timer.lst</v>
-<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\Timer_Int.lst</v>
-<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\Timer_PM.lst</v>
-<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Design01.elf</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStates>
@@ -234,6 +195,7 @@
 <Unloaded />
 <OpenDocs>
 <name v=".\main.c" />
+<name v=".\TopDesign\TopDesign.cysch" />
 </OpenDocs>
 <OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
 
@@ -241,7 +203,7 @@
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1163, 583" SelectedTabbedMdiWindow="bbb6bde7-d9bd-4aa4-bede-10eeb7f27b04"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="0a1df578-ab2d-47ff-80a5-99668cc48055" /><DocumentWindow Key="C:\Users\Laptop\PSoC_Labs\Lab4-SavkaR\Design01.cydsn\main.c" Guid="bbb6bde7-d9bd-4aa4-bede-10eeb7f27b04" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1163, 583" SelectedTabbedMdiWindow="57a3b63a-3b70-40df-bb72-1471c7c87a62"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="0a1df578-ab2d-47ff-80a5-99668cc48055" /><DocumentWindow Key="C:\Users\Laptop\PSoC_Labs\Lab5-SavkaR\Design01.cydsn\main.c" Guid="57a3b63a-3b70-40df-bb72-1471c7c87a62" /><DocumentWindow Key="C:\Users\Laptop\PSoC_Labs\Lab5-SavkaR\Design01.cydsn\TopDesign\TopDesign.cysch" Guid="cbf2806e-cb51-4cbb-aa85-9c96579eb6e1" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
